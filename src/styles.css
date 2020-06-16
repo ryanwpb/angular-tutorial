@@ -5,10 +5,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --btn-background: crimson;
+  --btn-color: #fff;
+}
+
 .btn.btn-primary {
   padding: 0.5rem;
-  background-color: crimson;
-  color: #fff;
+  background-color: var(--btn-background);
+  color: var(--btn-color);
   border: crimson;
   border-radius: 0.25rem;
 }
