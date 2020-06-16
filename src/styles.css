@@ -12,3 +12,7 @@
   border: crimson;
   border-radius: 0.25rem;
 }
+
+[disabled] {
+  background: #ccc !important;
+}
