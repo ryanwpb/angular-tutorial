@@ -8,13 +8,14 @@
 :root {
   --btn-background: #ff5a5f;
   --btn-color: #fff;
+  --btn-primary-border: #ff5a5f;
 }
 
 .btn.btn-primary {
   padding: 0.5rem;
   background-color: var(--btn-background);
   color: var(--btn-color);
-  border: crimson;
+  border: var(--btn-primary-border);
   border-radius: 0.25rem;
 }
 
