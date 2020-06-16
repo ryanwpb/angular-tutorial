@@ -9,6 +9,8 @@
   --btn-background: #ff5a5f;
   --btn-color: #fff;
   --btn-primary-border: #ff5a5f;
+  --input-primary-border: #ccc;
+  --border-radius: 0.25rem;
 }
 
 .btn.btn-primary {
@@ -16,9 +18,17 @@
   background-color: var(--btn-background);
   color: var(--btn-color);
   border: var(--btn-primary-border);
-  border-radius: 0.25rem;
+  border-radius: var(--border-radius);
+  cursor: pointer;
 }
 
 [disabled] {
   background: #ccc !important;
+  cursor: none;
+}
+
+.input-primary {
+  display: block;
+  border: solid 1px var(--input-primary-border);
+  border-radius: var(--border-radius);
 }
