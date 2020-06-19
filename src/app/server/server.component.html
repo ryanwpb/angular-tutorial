@@ -1,1 +1,3 @@
-<p>The Server id is {{ serverId }} and it is {{ serverStatus }}</p>
+<p [ngStyle]="{ backgroundColor: getColor() }">
+  The Server id is {{ serverId }} and it is {{ serverStatus }}
+</p>
