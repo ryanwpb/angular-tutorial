@@ -32,3 +32,13 @@
   border: solid 1px var(--input-primary-border);
   border-radius: var(--border-radius);
 }
+
+.online {
+  background: none;
+  color: #fff;
+}
+
+.offline {
+  background: none;
+  color: #fff;
+}
